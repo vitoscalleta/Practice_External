@@ -29,7 +29,7 @@ pipeline {
                 echo 'workspace and versions' 
                 sh 'echo $WORKSPACE'
                 sh 'gcloud version'
-                sh 'nodejs -v'
+                sh 'node -v'
                 sh 'npm -v'
         
             }
